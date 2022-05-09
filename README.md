@@ -1,3 +1,3 @@
 # KAKAO_Clone
 
-to study html and css 
+HTML & CSS are so fun!
