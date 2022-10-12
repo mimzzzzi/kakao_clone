@@ -23,3 +23,7 @@
 .screen-header__icons .fa-cog:hover{
     animation: roteCog 2s linear infinite;
 }
+
+.header-chats{
+    margin-bottom: 0px;
+}
