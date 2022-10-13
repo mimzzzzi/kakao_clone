@@ -1,125 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kokoa Clone</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:45</span>
-        </div>
-        <div class="status-bar__column">
-            <span>98%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
     <header class="screen-header header-chats">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
-        </div>
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="far fa-comments fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
     </header>
 
     <div class="section">
-        <input type="radio" name="slide" id="slide01" checked>
-        <input type="radio" name="slide" id="slide02">
-        <input type="radio" name="slide" id="slide03">
-        <div class="slidewrap">
-            <ul class="slidelist">
-                <li>
-                    <a href="https://instagram.com/kko.on_kwon?igshid=YmMyMTA2M2Y=" >
-                        <img src="./img/adv1.jpg">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/kkonaeng_kwon?igshid=YmMyMTA2M2Y=">
-                        <img src="./img/adv2.jpg">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/mimzzzzi">
-                        <img src="./img/adv3.jpg">
-                    </a>
-                </li>
-            </ul>
-    
-            <div class="slide-control">
-                <div class="control01">
-                    <label for="slide03" class="left"><i class="fas fa-chevron-left"></i></label>
-                    <label for="slide02" class="right"><i class="fas fa-chevron-right"></i></label>
-                </div>
-                <div class="control02">
-                    <label for="slide01" class="left"><i class="fas fa-chevron-left"></i></label>
-                    <label for="slide03" class="right"><i class="fas fa-chevron-right"></i></label>
-                </div>
-                <div class="control03">
-                    <label for="slide02" class="left"><i class="fas fa-chevron-left"></i></label>
-                    <label for="slide01" class="right"><i class="fas fa-chevron-right"></i></label>
-                </div>
-            </div>
+      <input type="radio" name="slide" id="slide01" checked />
+      <input type="radio" name="slide" id="slide02" />
+      <input type="radio" name="slide" id="slide03" />
+      <div class="slidewrap">
+        <ul class="slidelist">
+          <li>
+            <a href="https://instagram.com/kko.on_kwon?igshid=YmMyMTA2M2Y=">
+              <img src="./img/adv1.jpg" />
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/kkonaeng_kwon?igshid=YmMyMTA2M2Y=">
+              <img src="./img/adv2.jpg" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mimzzzzi">
+              <img src="./img/adv3.jpg" />
+            </a>
+          </li>
+        </ul>
+
+        <div class="slide-control">
+          <div class="control01">
+            <label for="slide03" class="left">
+              <i class="fas fa-chevron-left"></i>
+            </label>
+            <label for="slide02" class="right">
+              <i class="fas fa-chevron-right"></i>
+            </label>
+          </div>
+          <div class="control02">
+            <label for="slide01" class="left">
+              <i class="fas fa-chevron-left"></i>
+            </label>
+            <label for="slide03" class="right">
+              <i class="fas fa-chevron-right"></i>
+            </label>
+          </div>
+          <div class="control03">
+            <label for="slide02" class="left">
+              <i class="fas fa-chevron-left"></i>
+            </label>
+            <label for="slide01" class="right">
+              <i class="fas fa-chevron-right"></i>
+            </label>
+          </div>
         </div>
+      </div>
     </div>
 
     <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5f9c58c2017800001.png" 
-                    class="user-component__avatar user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">KokoaTalk</h4>
-                        <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5f9c58c2017800001.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">KokoaTalk</h4>
+              <h6 class="user-component__subtitle">Just peachy!</h6>
             </div>
-        </a>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="./img/default.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Kevin</h4>
+              <h6 class="user-component__subtitle">Have a good one:)</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">10:28</span>
+            <div class="badge">3</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/8e0cef2484c15adf542de4b637ee1cddfd8d7437f5753e7c913bdec32c3cad1fe87058991a7cd0bf72a41e1715dceef3c7a41c83f5e12731e8d832ee9368254cf5901736b1efc81e5912f5c076e847180b3361987c2ca71df1c408f712c7f8fb"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Su</h4>
+              <h6 class="user-component__subtitle">It's a no-go (༎ຶ⌑༎ຶ)</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">08:54</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
     </main>
-    
-    
+
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__new"></span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
-            </li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__new"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
 
     <div id="no-mobile">
-        <span>Your screen is too big ( •︠ˍ•︡ )</span>
-    </div> 
+      <span>Your screen is too big ( •︠ˍ•︡ )</span>
+    </div>
 
-   
-    <script src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
