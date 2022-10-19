@@ -1,5 +1,5 @@
 .more-body {
-  height: 118vh;
+  height: 125vh;
   width: 100%;
 }
 .more-screen {
@@ -70,6 +70,7 @@
 }
 .more-list {
   background-color: var(--yellow);
+  margin-bottom: 15px;
 }
 
 .more-weather {
