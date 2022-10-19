@@ -1,10 +1,20 @@
+.more-body {
+  height: 118vh;
+  width: 100%;
+}
+.more-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  margin-bottom: var(--horizontol-space);
+}
 .more-screen .icon-row {
-  margin-top: 30px;
+  margin: 30px 10px;
 }
 .more-suggestions {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   border-top: var(--main-border);
-  padding-top: 40px;
 }
 .more-suggesions__title {
   margin-bottom: 30px;
@@ -57,4 +67,11 @@
 }
 .more-weather .user-component__subtitle {
   font-size: 15px;
+}
+.more-list {
+  background-color: var(--yellow);
+}
+
+.more-weather {
+  margin: 0px var(--horizontol-space);
 }
