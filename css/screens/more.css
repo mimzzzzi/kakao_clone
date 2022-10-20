@@ -1,8 +1,7 @@
 .more-body {
-  height: 140vh;
+  height: 125vh;
   width: 100%;
 }
-
 .more-screen {
   display: flex;
   align-items: center;
