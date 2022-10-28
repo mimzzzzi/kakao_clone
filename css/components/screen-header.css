@@ -27,3 +27,8 @@
 .header-chats {
   margin-bottom: 0px;
 }
+
+.profile-header,
+.profile-header h1 {
+  color: white;
+}
