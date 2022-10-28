@@ -1,0 +1,47 @@
+.profile-body {
+  background-color: #92a0a6;
+}
+.profile-icon__round {
+  outline: solid 1.5px white;
+  padding: 6px 7px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 100;
+}
+.profile-icon {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 50px 70px 0px 70px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.profile-icons_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-icons_row i {
+  margin-bottom: 20px;
+}
+.my-profile {
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  bottom: 230px;
+  color: white;
+}
+.my-profile img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  border-radius: 45px;
+}
+.my-profile span {
+  font-size: 20px;
+  font-weight: 500;
+}
